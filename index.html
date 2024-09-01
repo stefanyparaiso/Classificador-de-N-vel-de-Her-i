@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificador de Nível do Herói</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Verificador de Nível do Herói</h1>
+      <div>
+        <label for="nome_heroi">Nome do Herói:</label>
+        <input
+          type="text"
+          id="nome_heroi"
+          placeholder="Digite o nome do herói"
+        />
+      </div>
+      <div>
+        <label for="xp_heroi">XP do Herói:</label>
+        <input type="text" id="xp_heroi" placeholder="Digite a XP do herói" />
+      </div>
+      <button onclick="verificarNivel()" class="button">
+        <span class="text">Verificar Nível</span>
+      </button>
+      <div id="resultado"></div>
+    </div>
+    <footer>
+      <p>
+        Desafio Dio Transformar Tec
+        "Classificador de Nível de Herói
+      </p>
+      <p>Transformar Tec 2024 "</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
